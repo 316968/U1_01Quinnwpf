@@ -1,0 +1,19 @@
+<Window x:Class="u1_01Quinn.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:u1_01Quinn"
+        mc:Ignorable="d"
+        Title="" Height="350" Width="468.45">
+    <StackPanel>
+        <Button x:Name="btnClickMe"
+                Content="Click Me"
+                FontSize="70"
+                Click="btnClickMe_Click"/>
+        <Label x:Name="lblOutput"
+               Content="Hello World! My name is Quinn Parker-Joyes"
+               FontSize="40"
+               FontFamily="Comic Sans"/>
+    </StackPanel>
+</Window>
